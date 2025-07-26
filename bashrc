@@ -1,5 +1,6 @@
 #! /usr/bin/bash env
 
+# Make sure config directory exists
 if [ -d "$HOME/.bashrc_conf" ]; then
     # Source main components
     if [ -f "$HOME/.bashrc_conf/environment.bash" ]; then
