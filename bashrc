@@ -11,4 +11,4 @@ if [ -d "$HOME/.bashrc_conf" ]; then
     fi
 fi
 
-export PS1="\[\e[1;35m\]WAKE UP SAMURAI!\[\e[0m\]\n\[\e[38;5;154m\][\u@\h \t] \[\e[36m\]\w > \[\e[0m\]"
+
