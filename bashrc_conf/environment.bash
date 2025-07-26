@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+# Better ls
 alias ls='eza --long --binary --git --git-repos --grid'
 
 # FZF History Search
@@ -16,3 +17,6 @@ if command -v fzf >/dev/null; then
     }
     bind -x '"\C-r": __fzf_history_search'
 fi
+
+# Prompt
+export PS1="\[\e[1;35m\]WAKE UP SAMURAI!\[\e[0m\]\n\[\e[38;5;154m\][\u@\h \t] \[\e[36m\]\w > \[\e[0m\]"
